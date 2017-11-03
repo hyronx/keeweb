@@ -9,7 +9,8 @@ const ThirdPartyStorage = {
     dropbox: require('./storage-dropbox'),
     webdav: require('./storage-webdav'),
     gdrive: require('./storage-gdrive'),
-    onedrive: require('./storage-onedrive')
+    onedrive: require('./storage-onedrive'),
+    storj: require('./storage-storj')
 };
 
 const storage = BuiltInStorage;
